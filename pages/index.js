@@ -5,7 +5,6 @@ import Particle from "../components/Particle";
 import CourseView from "../components/CourseView";
 import Image from "next/image";
 import FloatingAvatar from "../components/FloatingAvatar";
-import PostView from "../components/PostView";
 import Footer from "../components/skeleton/Footer";
 import SwiperView from "../components/SwiperView";
 import {useEffect, useState} from "react";
@@ -102,18 +101,25 @@ export default function Home() {
                                     </div>
                                 </div>
                                 {recommended !== 'pending' && recommended.length !== 0 ? <div className="courses">
-                                    <SwiperView from={'courses'} responsive={true} elements={(()=>{
+                                    <SwiperView from={'courses'} responsive={true} elements={(() => {
                                         let result = [];
-                                        recommended.map((e, index)=>{
+                                        recommended.map((e, index) => {
                                             result.push(<CourseView key={index} img={e.image} title={e.title}
                                                                     desc={e.courseDesc} slug={e.slug}
-                                                                    author={{image: '/img/author.svg', name: 'تیم مدیریت'}}
+                                                                    author={{
+                                                                        image: '/img/author.svg',
+                                                                        name: 'تیم مدیریت'
+                                                                    }}
                                                                     id={e.id}
-                                                                    course={{duration: 26, sessions: 18, price: parseInt(e.price)}}/>)
+                                                                    course={{
+                                                                        duration: 26,
+                                                                        sessions: 18,
+                                                                        price: parseInt(e.price)
+                                                                    }}/>)
                                         })
                                         return result;
                                     })()}/>
-                                </div> : <Loading />}
+                                </div> : <Loading/>}
                             </div>
                         </div>
                     </Dynamic>
@@ -202,39 +208,6 @@ export default function Home() {
                                             right={'10%'} top={'30%'}/>
                             <FloatingAvatar img={'/img/other-avatar.svg'} size={'30px'} blur={'3px'}
                                             right={'25%'} top={'70%'}/>
-                        </div>
-                    </div>
-                    <div className="top-posts">
-                        <div className="container">
-                            <div className="top-section">
-                                <div className="title-container">
-                                    <div className="line"/>
-                                    <div className="text">آخرین مطالب وبلاگ</div>
-                                </div>
-                                <div className="more">
-                                    <a href="#">مشاهده بیشتر</a>
-                                    <div className="arrow"/>
-                                </div>
-                            </div>
-                            <div className="posts">
-                                <SwiperView items={3} responsive={true} elements={[
-                                    <PostView img={'/img/wp.jpg'} title={'همه چیز راجب فلاتر'}
-                                              desc={'لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود ...'}
-                                              date={'هفته پیش'} category={'اخبار'} link={'#'}/>,
-                                    <PostView img={'/img/wp.jpg'} title={'همه چیز راجب فلاتر'}
-                                              desc={'لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود ...'}
-                                              date={'هفته پیش'} category={'اخبار'} link={'#'}/>,
-                                    <PostView img={'/img/wp.jpg'} title={'همه چیز راجب فلاتر'}
-                                              desc={'لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود ...'}
-                                              date={'هفته پیش'} category={'اخبار'} link={'#'}/>,
-                                    <PostView img={'/img/wp.jpg'} title={'همه چیز راجب فلاتر'}
-                                              desc={'لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود ...'}
-                                              date={'هفته پیش'} category={'اخبار'} link={'#'}/>,
-                                    <PostView img={'/img/wp.jpg'} title={'همه چیز راجب فلاتر'}
-                                              desc={'لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود ...'}
-                                              date={'هفته پیش'} category={'اخبار'} link={'#'}/>
-                                ]}/>
-                            </div>
                         </div>
                     </div>
                     <Footer/>
