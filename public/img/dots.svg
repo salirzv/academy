@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_42" data-name="Rectangle 42" width="48" height="48" transform="translate(227 265)" fill="#fefefe"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_13" data-name="Mask Group 13" transform="translate(-227 -265)" clip-path="url(#clip-path)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(227 265)">
+      <g id="more-horizotnal">
+        <rect id="Rectangle_41" data-name="Rectangle 41" width="48" height="48" fill="#fefefe" opacity="0"/>
+        <circle id="Ellipse_30" data-name="Ellipse 30" cx="4" cy="4" r="4" transform="translate(20 20)" fill="#fefefe"/>
+        <circle id="Ellipse_31" data-name="Ellipse 31" cx="4" cy="4" r="4" transform="translate(34 20)" fill="#fefefe"/>
+        <circle id="Ellipse_32" data-name="Ellipse 32" cx="4" cy="4" r="4" transform="translate(6 20)" fill="#fefefe"/>
+      </g>
+    </g>
+  </g>
+</svg>

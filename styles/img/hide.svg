@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="48" height="48" transform="translate(1388 390)" fill="#003a99"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_36" data-name="Mask Group 36" transform="translate(-1388 -390)" clip-path="url(#clip-path)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(1388 390)">
+      <g id="eye-off">
+        <rect id="Rectangle_94" data-name="Rectangle 94" width="48" height="48" fill="#003a99" opacity="0"/>
+        <circle id="Ellipse_345" data-name="Ellipse 345" cx="3" cy="3" r="3" transform="translate(21 21)" fill="#003a99"/>
+        <path id="Path_457" data-name="Path 457" d="M30.58,36.24,28,33.56l-.14-.14-2.54-2.54A8.14,8.14,0,0,1,24.1,31,7,7,0,0,1,17,24a8.14,8.14,0,0,1,.12-1.22l-4-4L10,15.74A31.78,31.78,0,0,0,4.26,23a2,2,0,0,0,0,2c1.26,2.18,8,13,19.78,13h.5A18.96,18.96,0,0,0,31,36.66Z" fill="#003a99"/>
+        <path id="Path_458" data-name="Path 458" d="M17.18,11.52l5.6,5.6A8.14,8.14,0,0,1,24,17a7,7,0,0,1,7,7,8.14,8.14,0,0,1-.12,1.22l5.36,5.36,1.68,1.68A31.78,31.78,0,0,0,43.74,25a2,2,0,0,0,0-2c-1.28-2.22-8.32-13.36-20.28-13A18.96,18.96,0,0,0,17,11.34Z" fill="#003a99"/>
+        <path id="Path_459" data-name="Path 459" d="M41.42,38.58,38.82,36l-4-4L15.78,12.94,12.84,10,9.42,6.58A2.008,2.008,0,1,0,6.58,9.42L11.06,14l3.5,3.4L29.18,32l.14.14L32,34.82,33.18,36l5.4,5.42a2.008,2.008,0,1,0,2.84-2.84Z" fill="#003a99"/>
+      </g>
+    </g>
+  </g>
+</svg>

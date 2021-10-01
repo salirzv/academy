@@ -1,0 +1,153 @@
+footer{
+  background: $blue;
+  overflow: auto;
+  .footer-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 3rem 0 3rem;
+    .item{
+      flex: 0.2;
+      height: 300px;
+    }
+    .desc{
+      .logo{
+        width: 170px;
+        display: flex;
+        .image{
+          height: 60px;
+          width: 60px;
+          position: relative;
+        }
+        .title{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-right: 10px;
+          .top{
+            margin-bottom: 5px;
+            color: $white;
+            font-family: Bold;
+          }
+          .bot{
+            color: $dark-white-half;
+            font-size: 0.8rem;
+          }
+        }
+      }
+      p{
+        text-align: justify;
+        line-height: 1.3;
+        font-size: 0.9rem;
+        color: $white;
+        margin-top: 10px;
+      }
+      .social{
+        width: 100%;
+        display: flex;
+        margin-top: 10px;
+        .social-item{
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          overflow: hidden;
+          margin-left: 10px;
+          a{
+            display: block;
+            width: 100%;
+            height: 100%;
+          }
+          &#twitter{
+            background: transparent url("/img/twitter.svg") no-repeat center center;
+            background-size: 100%;
+          }
+          &#facebook{
+            background: transparent url("/img/facebook.svg") no-repeat center center;
+            background-size: 100%;
+          }
+          &#linkedin{
+            background: transparent url("/img/linkedin.svg") no-repeat center center;
+            background-size: 100%;
+          }
+          &#instagram{
+            background: transparent url("/img/instagram.svg") no-repeat center center;
+            background-size: 100%;
+          }
+        }
+      }
+    }
+    .prompts{
+      .prompts-container{
+        display: flex;
+        .promp-item{
+          width: 70px;
+          height: 70px;
+          &#first{
+            background: transparent url("/img/prompt-1.svg") no-repeat center center;
+            background-size: 100%;
+          }
+        }
+      }
+    }
+  }
+  .footer-title{
+    display: flex;
+    height: 30px;
+    color: $white;
+    font-family: Medium;
+    font-size: 0.9rem;
+    .line{
+      width: 3px;
+      height: 50%;
+      background-color: $light-blue;
+      border-radius: 5px;
+      margin-left: 10px;
+    }
+  }
+  .links-container{
+    margin-right: 10px;
+    .link-item{
+      margin-bottom: 15px;
+      a{
+        color: $white;
+        font-size: 0.85rem;
+      }
+    }
+  }
+  .footer-line{
+    margin: 0 auto 20px;
+    width: 100%;
+    height: 1px;
+    border-radius: 5px;
+    background: $white-10;
+  }
+  .cr{
+    p{
+      width: 100%;
+      text-align: center;
+      font-size: 0.8rem;
+      color: $white;
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+  }
+}
+@media screen and (max-width: 950px){
+  footer{
+    .footer-container{
+      flex-direction: column;
+      align-items: center;
+      .item{
+        flex: unset;
+        height: unset;
+        text-align: center;
+        width: 95%;
+        max-width: 300px;
+        margin-bottom: 35px;
+        .footer-title{}
+      }
+    }
+  }
+}

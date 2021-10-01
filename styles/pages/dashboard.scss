@@ -1,0 +1,112 @@
+.dashboard{
+  .dashboard-container{
+    width: 96%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    .right-panel{
+      width: 200px;
+      border-radius: 5px;
+      background: $white;
+      .panel-item{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        .icon{
+          width: 30px;
+          height: 30px;
+          background-size: 100% !important;
+          &#dash{
+            background: transparent url("/img/dash.svg") no-repeat center center;
+          }
+          &#logout{
+            background: transparent url("/img/log-out.svg") no-repeat center center;
+          }
+          &#trx{
+            background: transparent url("/img/transaction.svg") no-repeat center center;
+          }
+          &#settings{
+            background: transparent url("/img/settings.svg") no-repeat center center;
+          }
+        }
+        a{
+          color: $blue;
+          font-size: 0.9rem;
+          margin-right: 10px;
+          font-family: Medium;
+        }
+      }
+      .panel-item-email{
+        color: $blue;
+        font-family: Medium;
+        width: 180px;
+        direction: ltr;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 0.9rem;
+        margin: 10px auto 0;
+      }
+    }
+    .left-panel{
+      flex: 1;
+      border-radius: 5px;
+      background: $white;
+      margin-right: 15px;
+      padding: 20px;
+      .dash-title{
+        height: 50px;
+        width: 150px;
+        display: flex;
+        align-items: center;
+        color: $blue;
+        font-size: 1.1rem;
+        font-family: Medium;
+        border-bottom: 3px solid $blue;
+        margin-bottom: 20px;
+      }
+      label{
+        font-size: 0.8rem;
+        color: $black-half;
+        margin: 10px 0;
+        display: block;
+      }
+      input{
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+        border-radius: 5px;
+        padding: 5px;
+        font-family: Regular;
+        background: $blue-10;
+      }
+      textarea{
+        width: 100%;
+        margin: 10px 0;
+        border-radius: 5px;
+        padding: 5px;
+        font-family: Regular;
+        background: $blue-10;
+        resize: none;
+        border: none;
+        &:focus{
+          outline: none;
+        }
+      }
+      select{
+        font-family: Regular;
+        border: none;
+        background: $blue-10;
+        padding: 8px;
+        border-radius: 5px;
+        margin: 10px 0;
+      }
+      .user-orders{
+        .user-orders-container{
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        }
+      }
+    }
+  }
+}

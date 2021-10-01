@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_59" data-name="Rectangle 59" width="24" height="24" transform="translate(226.52 265)" fill="#101010"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_20" data-name="Mask Group 20" transform="translate(-226.52 -265)" clip-path="url(#clip-path)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(227 265)">
+      <g id="video">
+        <rect id="Rectangle_58" data-name="Rectangle 58" width="24" height="24" transform="translate(-0.48)" fill="#101010" opacity="0"/>
+        <path id="Path_135" data-name="Path 135" d="M22.62,12.107a1.666,1.666,0,0,0-1.813.294L18.7,14.361V12.94A2.94,2.94,0,0,0,15.76,10H6.94A2.94,2.94,0,0,0,4,12.94v7.84a2.94,2.94,0,0,0,2.94,2.94h8.82a2.94,2.94,0,0,0,2.94-2.94V19.359l2.117,1.96a1.705,1.705,0,0,0,1.137.441,1.646,1.646,0,0,0,.676-.147,1.568,1.568,0,0,0,.98-1.45V13.557A1.568,1.568,0,0,0,22.62,12.107ZM16.74,20.78a.98.98,0,0,1-.98.98H6.94a.98.98,0,0,1-.98-.98V12.94a.98.98,0,0,1,.98-.98h8.82a.98.98,0,0,1,.98.98Zm4.9-1.372L18.886,16.86l2.754-2.548Z" transform="translate(-2.04 -5.1)" fill="#101010"/>
+      </g>
+    </g>
+  </g>
+</svg>

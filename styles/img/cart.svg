@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="48" height="48" transform="translate(227 265)" fill="#003a99"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-227 -265)" clip-path="url(#clip-path)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(227 265)">
+      <g id="shopping-bag">
+        <rect id="Rectangle_16" data-name="Rectangle 16" width="48" height="48" fill="#003a99" opacity="0"/>
+        <path id="Path_7" data-name="Path 7" d="M40.24,13.42,34.58,7.76A6,6,0,0,0,30.34,6H17.66a6,6,0,0,0-4.24,1.76L7.76,13.42A6,6,0,0,0,6,17.66V36a6,6,0,0,0,6,6H36a6,6,0,0,0,6-6V17.66a6,6,0,0,0-1.76-4.24Zm-24-2.84A2.1,2.1,0,0,1,17.66,10H30.34a2.1,2.1,0,0,1,1.42.58L35.18,14H12.82ZM36,38H12a2,2,0,0,1-2-2V18H38V36A2,2,0,0,1,36,38Z" fill="#003a99"/>
+        <path id="Path_8" data-name="Path 8" d="M30,22a2,2,0,0,0-2,2,4,4,0,0,1-8,0,2,2,0,0,0-4,0,8,8,0,0,0,16,0A2,2,0,0,0,30,22Z" fill="#003a99"/>
+      </g>
+    </g>
+  </g>
+</svg>

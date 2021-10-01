@@ -1,0 +1,31 @@
+.over-lay-search{
+  width: 96%;
+  max-width: 400px;
+  margin: 40px auto;
+  background: #FFFFFF;
+  border-radius: 7px;
+  .search-input{
+    display: flex;
+    border-radius: 7px;
+    overflow: hidden;
+    align-items: center;
+    form{
+      display: block;
+      flex: 1;
+    }
+    .icon {
+      width: 40px;
+      height: 40px;
+      background: transparent url("/img/search-fill.svg") no-repeat center center;
+      background-size: 100%;
+      cursor: pointer;
+    }
+  }
+  input{
+    width: 100%;
+    padding: 10px 10px;
+    height: 50px;
+    line-height: 1.3;
+    font-family: Regular;
+  }
+}

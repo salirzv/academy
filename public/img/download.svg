@@ -1,0 +1,7 @@
+<svg id="Add_Cart" data-name="Add Cart" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <rect id="Rectangle_57" data-name="Rectangle 57" width="50" height="50" rx="8" fill="#003a99"/>
+  <g id="Group_394" data-name="Group 394" transform="translate(-476 -381)">
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="32" height="32" transform="translate(485 390)" fill="#fefefe" opacity="0"/>
+    <path id="Icon_awesome-download" data-name="Icon awesome-download" d="M11.226,0h4.158A1.244,1.244,0,0,1,16.63,1.247V9.978h4.558a1.037,1.037,0,0,1,.733,1.772l-7.9,7.91a1.007,1.007,0,0,1-1.419,0L4.683,11.75a1.037,1.037,0,0,1,.733-1.772H9.978V1.247A1.244,1.244,0,0,1,11.226,0ZM26.609,19.541v5.821a1.244,1.244,0,0,1-1.247,1.247H1.247A1.244,1.244,0,0,1,0,25.361V19.541a1.244,1.244,0,0,1,1.247-1.247H8.871l2.547,2.547a2.663,2.663,0,0,0,3.773,0l2.547-2.547h7.624A1.244,1.244,0,0,1,26.609,19.541Zm-6.444,4.573a1.039,1.039,0,1,0-1.039,1.039A1.042,1.042,0,0,0,20.164,24.114Zm3.326,0a1.039,1.039,0,1,0-1.039,1.039A1.042,1.042,0,0,0,23.491,24.114Z" transform="translate(487.232 392.562)" fill="#fefefe"/>
+  </g>
+</svg>

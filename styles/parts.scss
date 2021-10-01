@@ -1,0 +1,14 @@
+button.btn{
+  cursor: pointer;
+  background-color: unset;
+  font-family: Medium;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: $white;
+}
+button.primary{
+  background: $blue;
+}
+button.btn-success{
+  background: #7DB80C;
+}

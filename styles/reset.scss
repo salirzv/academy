@@ -1,0 +1,99 @@
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+footer, header, nav, section, main{
+  display: block;
+}
+
+body{
+  line-height: 1;
+  direction: rtl;
+  font-family: Regular;
+  background: $dark-white;
+}
+
+ol, ul{
+  list-style: none;
+}
+
+blockquote, q{
+  quotes: none;
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  td, th{
+    text-align: center;
+    padding: 10px;
+  }
+  th{
+    background: $blue-10;
+  }
+  .table-success{
+    background: $light-green;
+    padding: 10px;
+    border-radius: 8px;
+  }
+}
+.empty-list-container{
+  .empty-list-image{
+    width: 96%;
+    max-width: 400px;
+    margin: 0 auto;
+    user-select: none;
+    img{
+      max-width: 100%;
+    }
+  }
+  .empty-text{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-family: Medium;
+    user-select: none;
+    font-size: 0.9rem;
+  }
+  .go-to-page{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    line-height: 1.3;
+    text-align: justify;
+    a{
+      font-family: Bold;
+    }
+  }
+}
+
+input{
+  border-radius: 0;
+  border: none;
+  outline: none;
+  &:focus{
+    outline: none;
+  }
+}
+a{
+  text-decoration: none;
+  color: unset;
+}
+button{
+  outline: none;
+  border: none;
+}
